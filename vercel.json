@@ -1,0 +1,21 @@
+  {
+  "functions": {
+    "*.php": {
+      "runtime": "vercel-php@0.7.3"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(css|js|img|certificates|favicon.ico|favicon.png)/(.*)",
+      "dest": "/$1/$2"
+    },
+    {
+      "src": "/(.*).php",
+      "dest": "/$1.php"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.php"
+    }
+  ]
+}

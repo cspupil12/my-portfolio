@@ -8,7 +8,7 @@
             <li><a href="index.php#portfolio">Projects</a></li>
             <li><a href="index.php#education">Education</a></li>
             <li><a href="index.php#certifications">Certifications</a></li>
-            <li><a href="index.php#contact">Contact</a></li>
+            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=jaspreet.singh.para@gmail.com" target="_blank">Contact</a></li>
         </ul>
     </div>
 </div>
