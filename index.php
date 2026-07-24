@@ -147,10 +147,9 @@
                     <div class="short_info">
                         <ul>
                             <li><p><span class="first">Name:</span><span class="second">Jaspreet</span></p></li>
-                            <li><p><span class="first">Email:</span><span class="second">jaspreet@planbotic.com</span></p></li>
+                            <li><p><span class="first">Email:</span><span class="second"><a href="mailto:jaspreet.singh.para@gmail.com" style="color: #e3872d;">jaspreet.singh.para@gmail.com</a></span></p></li>
                             <li><p><span class="first">Location:</span><span class="second">Jalandhar, Punjab, India</span></p></li>
                             <li><p><span class="first">Company:</span><span class="second">PlanBotic</span></p></li>
-                            <li><p><span class="first">LinkedIn:</span><span class="second"><a href="https://linkedin.com/in/your-handle" target="_blank" style="color: #e3872d;">linkedin.com/in/your-handle</a></span></p></li>
                         </ul>
                     </div>
                 </div>
