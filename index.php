@@ -46,42 +46,79 @@
         .conor_tm_home_wrap .rightbox .overlay { display: none; }
         @media (max-width: 1040px) {
             .conor_tm_home_wrap { 
-                flex-direction: column-reverse; 
-                justify-content: center; 
-                padding-top: 120px;
-                padding-bottom: 50px;
-                min-height: auto;
-            }
-            .conor_tm_home_wrap .leftbox, .conor_tm_home_wrap .rightbox { 
-                width: 100%; 
-                text-align: center;
+                flex-direction: column !important; 
+                justify-content: center !important; 
+                align-items: center !important;
+                padding-top: 130px !important;
+                padding-bottom: 60px !important;
+                min-height: auto !important;
+                height: auto !important;
             }
             .conor_tm_home_wrap .rightbox { 
-                height: auto; 
-                margin-bottom: 30px;
+                width: 100% !important; 
+                height: auto !important;
+                position: relative !important;
+                display: flex !important;
+                justify-content: center !important;
+                align-items: center !important;
+                margin-bottom: 30px !important;
+                order: 1 !important;
             }
             .conor_tm_home_wrap .rightbox .inner {
-                width: 250px;
-                height: 250px;
-                margin: 0 auto;
+                position: relative !important;
+                width: 210px !important;
+                height: 210px !important;
+                margin: 0 auto !important;
+            }
+            .conor_tm_home_wrap .leftbox { 
+                width: 100% !important; 
+                height: auto !important;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                text-align: center !important;
+                order: 2 !important;
+            }
+            .conor_tm_home_wrap .leftbox .texts_wrap {
+                left: 0 !important;
+                padding: 0 15px !important;
+                text-align: center !important;
+                width: 100% !important;
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+            }
+            .conor_tm_home_wrap .leftbox .texts_wrap h2,
+            .conor_tm_home_wrap .leftbox .texts_wrap h1,
+            .conor_tm_home_wrap .leftbox .texts_wrap p {
+                text-align: center !important;
+            }
+            .conor_tm_home_wrap .leftbox .texts_wrap h1 span {
+                font-size: 32px !important;
+                text-align: center !important;
             }
             .conor_tm_home_wrap .leftbox .texts_wrap p.hero-tagline {
-                font-size: 18px !important;
+                font-size: 16px !important;
+                line-height: 1.5 !important;
                 text-align: center !important;
+                margin: 15px auto 0 auto !important;
+                max-width: 90% !important;
             }
         }
         @media (max-width: 480px) {
             .conor_tm_home_wrap {
-                padding-top: 100px;
-                padding-bottom: 30px;
+                padding-top: 110px !important;
+                padding-bottom: 40px !important;
             }
             .conor_tm_home_wrap .rightbox .inner {
-                width: 190px;
-                height: 190px;
+                width: 175px !important;
+                height: 175px !important;
+            }
+            .conor_tm_home_wrap .leftbox .texts_wrap h1 span {
+                font-size: 26px !important;
             }
             .conor_tm_home_wrap .leftbox .texts_wrap p.hero-tagline {
-                font-size: 15px !important;
-                line-height: 1.5 !important;
+                font-size: 14px !important;
             }
         }
         .page_section { padding: 100px 0; }
